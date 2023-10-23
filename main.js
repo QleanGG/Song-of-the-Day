@@ -43,14 +43,6 @@ loop in loop
 album will be an array with first index as the name (string) and song list as array for 2nd index
 */
 
-const dprIan = artistFactory('DPR Ian',[
-    ['Moodswings In This Order',['MITO','So Beautiful','Dope Lovers','No Blueberries','Nerves','Scaredy Cat','Welcome To The Show','No Silhouette']],
-    ['Moodswing In To Order',['Seraph','1 Shot','Mood','Miss Understood','Avalon','Merry Go','Ribbon','Winterfell','Calico','Mr. Insanity','Ballroom Extravaganza','Sometimes I\'m']],
-    ['Dear Insanity...',['Famous Last Words','Welcome To The Other Side',"Don't Go Insane",'Bad Cold','So I Danced','Peanut Butter & Tears', 'Violet Crazy']]]);
-// console.log (dprIan.artist);
-// console.log (dprIan.albums[2].albumName);
-// console.log (dprIan.albums[2].randomSong);
-// hello
 const randomMsg = artist => {
     console.log(`Artist of the day is ${artist.name}`);
     randAlbumNum = Math.floor(Math.random() * artist.albums.length);
@@ -60,3 +52,9 @@ const randomMsg = artist => {
 }
 
 randomMsg(dprIan);
+
+const dprIan = artistFactory('DPR Ian',[
+    ['Moodswings In This Order',['MITO','So Beautiful','Dope Lovers','No Blueberries','Nerves','Scaredy Cat','Welcome To The Show','No Silhouette']],
+    ['Moodswing In To Order',['Seraph','1 Shot','Mood','Miss Understood','Avalon','Merry Go','Ribbon','Winterfell','Calico','Mr. Insanity','Ballroom Extravaganza','Sometimes I\'m']],
+    ['Dear Insanity...',['Famous Last Words','Welcome To The Other Side',"Don't Go Insane",'Bad Cold','So I Danced','Peanut Butter & Tears', 'Violet Crazy']]]);
+// console.log (dprIan.artist);
