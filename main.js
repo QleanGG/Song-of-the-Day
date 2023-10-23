@@ -31,7 +31,7 @@ const albumFactory = (albumArr) => {
 
 const artistFactory = (name, albumArr ) => {
     return {
-        artist: name,
+        name: name,
         albums: albumFactory(albumArr),
     };
 }
@@ -51,3 +51,12 @@ const dprIan = artistFactory('DPR Ian',[
 // console.log (dprIan.albums[2].albumName);
 // console.log (dprIan.albums[2].randomSong);
 // hello
+const randomMsg = artist => {
+    console.log(`Artist of the day is ${artist.name}`);
+    randAlbumNum = Math.floor(Math.random() * artist.albums.length);
+    randAlbum = artist.albums[randAlbumNum];
+    console.log(`Featured Album is ${randAlbum.albumName}`);
+    console.log(`Featured Song is ${randAlbum.randomSong}`);
+}
+
+randomMsg(dprIan);
