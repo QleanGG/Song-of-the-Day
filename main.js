@@ -81,7 +81,7 @@ const art5 = artistFactory('Nujabes',[
 const art6 = artistFactory('Red Hot Chili Peppers',[
     ['Blood Sugar Sex Magik',['The Power Of Equality','If You Have To Ask','Breaking The Girl','Funky Monks','Suck My Kiss','I Could Have Lied','Mellowship Slinky In B Major','The Righteous & The Wicked','Give It Away','Blood Sugar Sex Magik','Under The Bridge','Naked In The Rain','Apache Rose Peacock','The Greeting Song','My Lovely Man','Sir Psycho Sexy','They\'re Red Hot']],
     ['Californication',['Around The World','Parallel Universe','Scar Tissue','Otherside','Get On Top','Californication','Easily','Porcelain','Emit Remmus','I Like Dirt','This Velvet Glove','Savior','Purple Stain','Right On Time','Road Trippin\'']],
-    ['By The Way',['By The Way','Universally Speaking','This Is The Place','Dosed','Don\'t Forger Me','The Zepthyr Song','Can\'t Stop','I Could Die For You','Midnight','Throw Away Your Television','Cabron','Tear','On Mercury','Minor Thing','Warm Tape','Venice Queen']]]);
+    ['By The Way',['By The Way','Universally Speaking','This Is The Place','Dosed','Don\'t Forget Me','The Zepthyr Song','Can\'t Stop','I Could Die For You','Midnight','Throw Away Your Television','Cabron','Tear','On Mercury','Minor Thing','Warm Tape','Venice Queen']]]);
 
 const art7 = artistFactory('Metallica',[
     ['Ride The Lightining',['Fight Fire With Fire','Ride The Lightning','For Whom The Bell Tolls','Fade To Black','Trapped Under Ice','Escape','Creeping Death','The Call Of Ktulu']],
