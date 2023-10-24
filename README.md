@@ -14,12 +14,12 @@ My program features at the moment 10 individual artists with my top pick albums 
 # Adding new artists
 You can add new artists by using the artistFactory function in this way:
 
-<sub>
+```
 const art1 = artistFactory('Artist-name',[
     ['album1',['Song 1','Song 2','Song 3']],
     ['album2',['Song 1','Song 2','Song 3']],
     ['album3',['Song 1','Song 2','Song 3']]]);
-</sub>
+```
 
 **Enjoy!**
 
