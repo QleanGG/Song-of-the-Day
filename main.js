@@ -42,12 +42,16 @@ album will be an array with first index as the name (string) and song list as ar
 */
 
 const randomMsg = artist => {
-    console.log(`Artist of the day is ${artist.name}`);
+    console.log(`Artist of the day is "${artist.name}"`);
     randAlbumNum = Math.floor(Math.random() * artist.albums.length);
     randAlbum = artist.albums[randAlbumNum];
-    console.log(`Featured Album is ${randAlbum.albumName}`);
-    console.log(`Featured Song is ${randAlbum.randomSong}`);
+    console.log(`Featured Album is "${randAlbum.albumName}"`);
+    console.log(`Featured Song is "${randAlbum.randomSong}"`);
 }
+
+const allArtistsRandomMessage = artistsArr => randomMsg(artistsArr[Math.floor(Math.random() * artistsArr.length)]);
+
+//artists
 
 const art1 = artistFactory('DPR Ian',[
     ['Moodswings In This Order',['MITO','So Beautiful','Dope Lovers','No Blueberries','Nerves','Scaredy Cat','Welcome To The Show','No Silhouette']],
@@ -86,7 +90,7 @@ const art7 = artistFactory('Metallica',[
 
 const art8 = artistFactory('Megadeth',[
     ['Peace Sells... But Who\'s Buying?',['Wake Up Dead','The Conjuring','Peace Sells','Devils Island','Good Mourning / Black Friday','Bad Omen','I Ain\'T Superstitous','My Last Words']],
-    ['Rust In Peace',['Holy Wars...The Punishment Due','Hangar 18','Take No Prisoners','Five Magics','Poison Was The Cure','Lucretia','Tornado Of Souls','Dawn Patrol','Rust In Peace...Polaris']]
+    ['Rust In Peace',['Holy Wars...The Punishment Due','Hangar 18','Take No Prisoners','Five Magics','Poison Was The Cure','Lucretia','Tornado Of Souls','Dawn Patrol','Rust In Peace...Polaris']],
     ['Countdown To Extinction',["Skin O' My Teeth",'Symphony Of Destruction','Architecture Of Aggression','Foreclosure Of A Dream','Sweating Bullets','']]]);
 
 const art9 = artistFactory('Bulletproof Tiger',[
@@ -97,3 +101,6 @@ const art10 = artistFactory('No Knife',[
     ['Drunk On The Moon',['Be Mini','Ginger Vitus','Habits','Punch \'N\' Judy','At The Heart Of The Terminal','Kiss Your Killer','Ephedrine','Smalll Of My Back','...If I Could Float...','Titanic','Daniels']],
     ['Fire In The City Of Automatons',['Academy Flight Song','Minus 1','Secret Handshake','Heavy Weather','K-214','The Spy','Charming','Angel Bomb','Short Term Memory','Under The Moon','Mission Control','If It Moves Kiss It']],
     ['Riot For Romance!',['Riot For Romance!','Permanent For Now','Swinging Lovers','Parting Shot','Feathers And Furs','The Red Bedroom','Brush Off','May I Call You Doll?','Flechette','This Moonlife']]]);
+
+const artists = [art1,art2,art3,art4,art5,art6,art7,art8,art9,art10];
+allArtistsRandomMessage(artists);
