@@ -55,7 +55,7 @@ const allArtistsRandomMessage = artistsArr => randomMsg(artistsArr[Math.floor(Ma
 
 const art1 = artistFactory('DPR Ian',[
     ['Moodswings In This Order',['MITO','So Beautiful','Dope Lovers','No Blueberries','Nerves','Scaredy Cat','Welcome To The Show','No Silhouette']],
-    ['Moodswing In To Order',['Seraph','1 Shot','Mood','Miss Understood','Avalon','Merry Go','Ribbon','Winterfell','Calico','Mr. Insanity','Ballroom Extravaganza','Sometimes I\'m']],
+    ['Moodswing In To Order',['Seraph','1 Shot','Mood','Miss Understood','Avalon','Merry Go','Ribbon','Winterfall','Calico','Mr. Insanity','Ballroom Extravaganza','Sometimes I\'m']],
     ['Dear Insanity...',['Famous Last Words','Welcome To The Other Side',"Don't Go Insane",'Bad Cold','So I Danced','Peanut Butter & Tears', 'Violet Crazy']]]);
 
 const art2 = artistFactory('System of a Down',[
@@ -65,7 +65,7 @@ const art2 = artistFactory('System of a Down',[
 
 const art3 = artistFactory('Skrillex',[
     ['Bangarang',['Right In','Bangarang',"Breakn' A Sweat","The Devil's Den",'Right on Time','Kyoto','Summit']],
-    ['More Monsters And Sprites',["First Of The Year (Equinox)","Ruffneck (Flex)","Ruffneck (FULL Flex)",'Scary Monsters And Nice Sprites (Dirtyphonics Remix)','Scary Monsters And Nice Sprites (Phonat Remix)','Scary Monsters And Nice Sprites (The Juggernaut Remix)','Scary Monsters And Nice Sprites (Kaskade Remix)']],
+    ['More Monsters And Sprites',["First Of The Year(Equinox)","Ruffneck(Flex)","Ruffneck(FULL Flex)",'Scary Monsters And Nice Sprites (Dirtyphonics Remix)','Scary Monsters And Nice Sprites (Phonat Remix)','Scary Monsters And Nice Sprites (The Juggernaut Remix)','Scary Monsters And Nice Sprites (Kaskade Remix)']],
     ['Recess',['All Is Fair In Love And Brostep','Recess','Stranger','Try It Out','Coast Is Clear','Dirty Vibe','Ragga Bomb','Doompy','Fuck That','Ease My Mind','Fire Away']]]);
 
 const art4 = artistFactory('Toe',[
@@ -86,19 +86,19 @@ const art6 = artistFactory('Red Hot Chili Peppers',[
 const art7 = artistFactory('Metallica',[
     ['Ride The Lightining',['Fight Fire With Fire','Ride The Lightning','For Whom The Bell Tolls','Fade To Black','Trapped Under Ice','Escape','Creeping Death','The Call Of Ktulu']],
     ['Master Of Puppets',['Battery','Master Of Puppets','The Thing That Should Not Be','Welcome Home(Sanitarium)','Disposable Heroes','Leper Messiah','Orion','Damage, Inc.']],
-    ['Metallica (Black Album)',['Enter Sandman','Sad But True',' Hoiler Than Thou',' The Unforgiven','Wherever I May Roam','Do\'nt Tread One Me','Through The Never','Nothing Else Matters','Of Wolf And Man','The God That Failed','My Friend Of Misery','The Struggle Within']]]);
+    ['Metallica (Black Album)',['Enter Sandman','Sad But True',' Hoiler Than Thou','The Unforgiven','Wherever I May Roam','Do\'nt Tread One Me','Through The Never','Nothing Else Matters','Of Wolf And Man','The God That Failed','My Friend Of Misery','The Struggle Within']]]);
 
 const art8 = artistFactory('Megadeth',[
     ['Peace Sells... But Who\'s Buying?',['Wake Up Dead','The Conjuring','Peace Sells','Devils Island','Good Mourning / Black Friday','Bad Omen','I Ain\'T Superstitous','My Last Words']],
     ['Rust In Peace',['Holy Wars...The Punishment Due','Hangar 18','Take No Prisoners','Five Magics','Poison Was The Cure','Lucretia','Tornado Of Souls','Dawn Patrol','Rust In Peace...Polaris']],
-    ['Countdown To Extinction',["Skin O' My Teeth",'Symphony Of Destruction','Architecture Of Aggression','Foreclosure Of A Dream','Sweating Bullets','']]]);
+    ['Countdown To Extinction',["Skin O' My Teeth",'Symphony Of Destruction','Architecture Of Aggression','Foreclosure Of A Dream','Sweating Bullets','This Was My Life','Countdown To Extinction','High Speed Dirt','Psychotron','Captive Honour','Ashes In Your Mouth']]]);
 
 const art9 = artistFactory('Bulletproof Tiger',[
     ['Stab the New Cherry',['Just One More Night, Baby?','Momentum Boooooooooootssss','Sometimes I Feel So Sick At The State Of The World I Can\'t Even Finish My Second Apple Pie','We Like Girls Who Have Dicks And Look Like Men And Also Are Men','Outdoor Muscle, Gay Sex Revenge']],
     ['You Wanna Kiss About it?',['Franko Spanlo\'s Greatest Hit','Everything Popular is Wrong','An Awkward Moment With a Grilled Cheese Sandwich','Our Band Name Sucks','Garth "The Belt" Brooks','Paper, Socks, Raper','Christopher "Walken" Reeve','Menter Mandman']]]);
 
 const art10 = artistFactory('No Knife',[
-    ['Drunk On The Moon',['Be Mini','Ginger Vitus','Habits','Punch \'N\' Judy','At The Heart Of The Terminal','Kiss Your Killer','Ephedrine','Smalll Of My Back','...If I Could Float...','Titanic','Daniels']],
+    ['Drunk On The Moon',['Be Mini','Ginger Vitus','Habits','Punch \'N\' Judy','At The Heart Of The Terminal','Kiss Your Killer','Ephedrine','Small Of My Back','...If I Could Float...','Titanic','Daniels']],
     ['Fire In The City Of Automatons',['Academy Flight Song','Minus 1','Secret Handshake','Heavy Weather','K-214','The Spy','Charming','Angel Bomb','Short Term Memory','Under The Moon','Mission Control','If It Moves Kiss It']],
     ['Riot For Romance!',['Riot For Romance!','Permanent For Now','Swinging Lovers','Parting Shot','Feathers And Furs','The Red Bedroom','Brush Off','May I Call You Doll?','Flechette','This Moonlife']]]);
 
