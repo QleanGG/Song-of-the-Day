@@ -1,13 +1,13 @@
 /*This is going to be a project suggesting the artist of the day, 
 Featured album and featured song
 
-This can be made using an objet (the name of the artist) 
-inside of it having an array of albums 
-inside of it having an array of song
+This can be made using an objet
+inside of it having the name of the artists and an array of albums 
+inside of it having an array of songs
 */
 
 // creating album Factory function
-// albumArr should include in every index an array where the first index is the name and second index as array of songlist
+// albumArr should include in every index an array where the first index is the name of the album and second index as an array of the songlist
 const albumFactory = (albumArr) => {
     const albumOrder = []
     for (i = 0; i < albumArr.length; i++){
@@ -28,6 +28,9 @@ const albumFactory = (albumArr) => {
 
 
 // creating artist Factory function
+/*
+receiving album input before the factory setting will be an array with first index as the name (string) and song list as array for 2nd index
+*/
 
 const artistFactory = (name, albumArr ) => {
     return {
@@ -36,11 +39,7 @@ const artistFactory = (name, albumArr ) => {
     };
 }
 
-/*
-DPR Ian
-album will be an array with first index as the name (string) and song list as array for 2nd index
-*/
-
+//Function to announce the random artist, random album and random song
 const randomMsg = artist => {
     console.log(`Artist of the day is "${artist.name}"`);
     randAlbumNum = Math.floor(Math.random() * artist.albums.length);
@@ -49,9 +48,10 @@ const randomMsg = artist => {
     console.log(`Featured Song is "${randAlbum.randomSong}"`);
 }
 
+//Function that take an array of artist objects and randomly picks an artist
 const allArtistsRandomMessage = artistsArr => randomMsg(artistsArr[Math.floor(Math.random() * artistsArr.length)]);
 
-//artists
+//adding artists
 
 const art1 = artistFactory('DPR Ian',[
     ['Moodswings In This Order',['MITO','So Beautiful','Dope Lovers','No Blueberries','Nerves','Scaredy Cat','Welcome To The Show','No Silhouette']],
@@ -102,5 +102,8 @@ const art10 = artistFactory('No Knife',[
     ['Fire In The City Of Automatons',['Academy Flight Song','Minus 1','Secret Handshake','Heavy Weather','K-214','The Spy','Charming','Angel Bomb','Short Term Memory','Under The Moon','Mission Control','If It Moves Kiss It']],
     ['Riot For Romance!',['Riot For Romance!','Permanent For Now','Swinging Lovers','Parting Shot','Feathers And Furs','The Red Bedroom','Brush Off','May I Call You Doll?','Flechette','This Moonlife']]]);
 
+// creating an array of artists    
 const artists = [art1,art2,art3,art4,art5,art6,art7,art8,art9,art10];
+
+// implamenting the run code
 allArtistsRandomMessage(artists);
