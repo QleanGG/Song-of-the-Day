@@ -1,0 +1,16 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+text-align: center;
+color: white;
+background-image: url(./photos/background.jpg);
+background-size: cover;
+}
+
+h2,h3,p {
+    padding: 20px;
+    font-size: 1.5rem;
+}
